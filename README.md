@@ -1,4 +1,4 @@
-# DT173G, Inloggning med PHP och REST
+# DT173G, Inloggning med PHP och API
 Detta repository visar ett enklare exempel på hur en inloggningsfunktion kan göras med hjälp av PHP, 
 Sessionsvariabel och cURL som anropar ett API som också ligger i repot under mappen **api**.
 
