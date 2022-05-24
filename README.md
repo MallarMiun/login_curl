@@ -4,7 +4,7 @@ Sessionsvariabel och cURL som anropar ett API som också ligger i repot under ma
 
 ## Installation
 Kopiera över filerna till din htdocs-mapp. Blir då sökvägen till mappen **localhost/login_curl/** behöver du inte ändra något i filerna. 
-Blir din sökväg annorlunda behöver du ändra sökvägen för de olika cURL-anropen så det stämmer överens med din sökväg på din dator.
+Blir din sökväg annorlunda behöver du ändra sökvägen för de olika cURL-anropen så det stämmer överens med sökvägen(URLen) på din dator.
 
 ## Filer
 **Webbplats**
