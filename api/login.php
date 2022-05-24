@@ -4,6 +4,7 @@ include_once("config.php");
 //Läser in vilken metod som skickats och lagrar i en variabel
 $method = $_SERVER['REQUEST_METHOD'];
 
+//Om annan metod än POST skickats skickas felmeddelande
 if($method != "POST") {
     http_response_code(405); //Method not allowed
     $response = array("message" => "Endast POST tillåts");
