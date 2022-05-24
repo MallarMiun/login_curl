@@ -1,4 +1,5 @@
 <?php
+
 $devmode = true;
 
 if ($devmode) {
@@ -12,3 +13,4 @@ header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-With');
+ 
