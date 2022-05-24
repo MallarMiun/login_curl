@@ -51,6 +51,7 @@
     curl_close($curl);
     
 
+    //GET
     $url = 'http://localhost/rest_video/catapi.php';
     //instansiera ny cURL session
     $curl = curl_init();
@@ -62,7 +63,7 @@
     $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
     curl_close($curl);
 
-    if(!array_key_exists("message", $data)) {
+    if($httpcode === 200) {
         //foreach
     } else {
         //felmeddelande
