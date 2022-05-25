@@ -1,11 +1,15 @@
 <?php
+/* 
+Code by Malin Larsson, Mittuniversitetet
+Email: malin.larsson@miun.se
+*/
+?>
+<?php
 include("includes/header.php");
 
 if (!isset($_SESSION["admin"])) {
     header("Location: index.php");
 }
-
-
 ?>
 <div class="container">
 

@@ -1,4 +1,10 @@
 <?php
+/* 
+Code by Malin Larsson, Mittuniversitetet
+Email: malin.larsson@miun.se
+*/
+?>
+<?php
 include("includes/header.php");
 
 //Kontroll om användaren är inloggad

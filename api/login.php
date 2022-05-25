@@ -1,5 +1,10 @@
 <?php
-
+/* 
+Code by Malin Larsson, Mittuniversitetet
+Email: malin.larsson@miun.se
+*/
+?>
+<?php
 include_once("config.php");
 
 //Läser in vilken metod som skickats och lagrar i en variabel

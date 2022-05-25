@@ -1,5 +1,4 @@
 <?php
-
 $devmode = true;
 
 if ($devmode) {

@@ -1,4 +1,10 @@
 <?php
+/* 
+Code by Malin Larsson, Mittuniversitetet
+Email: malin.larsson@miun.se
+*/
+?>
+<?php
 include("config.php");
 ?>
 <!DOCTYPE html>

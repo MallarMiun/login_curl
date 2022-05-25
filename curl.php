@@ -1,4 +1,10 @@
 <?php
+/* 
+Code by Malin Larsson, Mittuniversitetet
+Email: malin.larsson@miun.se
+*/
+?>
+<?php
 
     /*Denna fil är endast för att visa hur de olika metoderna skickat med cURL, GET, POST, PUT och DELETE*/
     
